@@ -1,19 +1,19 @@
 # site settings
 
-title: cvless
-description: Jekyll theme for a beautiful online CV
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
+title: Hedwy.Art
+description: nothing special, just Hedwy
+taglong: nothing special, just Hedwy
+tagshort: nothing special, just Hedwy
 url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
-repo: https://github.com/username/username.github.io
+repo: https://github.com/username/itshedwy.github.io
 
 # author settings
 
 author:
-  name: Place Holder
-  email: username@domain.com
+  name: Hedwy
+  email: itshedwy@gmail.com
 photo: /assets/photo.jpg
 
 # build settings
@@ -43,7 +43,7 @@ autopages:
   enabled: false
 
 pagination:
-  enabled: true
+  enabled: false
   per_page: 1
   sort_reverse: true
   permalink: /:num/
