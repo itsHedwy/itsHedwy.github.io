@@ -1,0 +1,94 @@
+/* Fonts */
+@font-face {
+    font-family: Argentum;
+    src: url(assets/argentum-sans.extralight.ttf);
+}
+@font-face {
+    font-family: Nocturne;
+    src: url(assets/NocturneSerif-Regular.ttf);
+
+
+/* Blocks and Shapes */
+}
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #1E1E1E;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+body {
+    align-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+}
+.notif-shape {
+    height: auto;
+    width: auto;
+    margin: 30px;
+    /*border*/
+    background: linear-gradient(#1C2B2C, #1C2B2C) padding-box,
+    linear-gradient(to right, #00A3FF, #00F0FF) border-box;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 24px #00eeff33;
+    justify-content: center;
+}
+/*
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    border-radius: 4px;
+    background: rgba(67, 187, 255, 0.10);
+*/
+
+/* Texts */
+.notif {
+    color: #00F0FF;
+    font-family: Argentum;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    margin: 34px;
+    text-align: center;
+}
+.link {
+    color: #ffffff;
+    font-family: Argentum;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-top: 12px;
+    margin-inline: 7px;
+}
+.link_inactive {
+    color: #ffffffa7;
+    font-family: Argentum;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-top: 12px;
+    margin-inline: 7px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+/* Links */
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
+a:hover {
+    color:#00F0FF;
+}
