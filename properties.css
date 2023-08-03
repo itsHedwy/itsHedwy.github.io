@@ -69,19 +69,6 @@ body {
     margin-top: 12px;
     margin-inline: 7px;
 }
-.link_inactive {
-    color: #ffffffa7;
-    font-family: Argentum;
-    font-size: 14px;
-    font-weight: 200;
-    line-height: normal;
-    letter-spacing: 0.8px;
-    margin-top: 12px;
-    margin-inline: 7px;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
 
 
 /* Links */
